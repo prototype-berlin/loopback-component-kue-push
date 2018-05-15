@@ -1,0 +1,29 @@
+{
+  "name": "loopback-component-kue-push",
+  "version": "0.0.0",
+  "description": "A handy loopback component to send push notifications for iOS and Android using kue.",
+  "main": "index.js",
+  "scripts": {
+    "release": "np"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prototype-berlin/loopback-component-kue-push.git"
+  },
+  "keywords": [
+    "loopback",
+    "kue",
+    "push"
+  ],
+  "author": "Manuel Heidrich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/prototype-berlin/loopback-component-kue-push/issues"
+  },
+  "homepage": "https://github.com/prototype-berlin/loopback-component-kue-push#readme",
+  "dependencies": {
+    "debug": "3.1.0",
+    "kue": "0.11.6",
+    "node-pushnotifications": "^1.0.21"
+  }
+}
