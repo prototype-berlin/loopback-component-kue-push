@@ -1,6 +1,6 @@
 {
   "name": "loopback-component-kue-push",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A handy loopback component to send push notifications for iOS and Android using kue.",
   "main": "index.js",
   "scripts": {
