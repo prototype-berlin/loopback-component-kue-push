@@ -12,7 +12,7 @@ npm i loopback-component-kue-push --save
 
 Add a ``loopback-component-kue-push`` object to your project's ``component-config.json``:
 
-````
+````json
 "loopback-component-kue-push": {
     "redis": {
       "host": "127.0.0.1",  // optional, defaults to 127.0.0.1
@@ -27,7 +27,7 @@ Add a ``loopback-component-kue-push`` object to your project's ``component-confi
         },
         "production": false,
       },
-      "gcm: {
+      "gcm": {
         "id": "<SERVER_KEY>"
       }
     }
