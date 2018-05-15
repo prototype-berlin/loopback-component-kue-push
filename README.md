@@ -15,8 +15,8 @@ Add a ``loopback-component-kue-push`` object to your project's ``component-confi
 ````json
 "loopback-component-kue-push": {
     "redis": {
-      "host": "127.0.0.1",  // optional, defaults to 127.0.0.1
-      "port": 6379,         // optional, defaults to 6379
+      "host": "127.0.0.1",
+      "port": 6379,
     },
     "pushSettings": {
       "apn": {
@@ -33,6 +33,8 @@ Add a ``loopback-component-kue-push`` object to your project's ``component-confi
     }
   }
 ````
+
+When no redis configuration is added, defults shown will be used.
 
 For the actual push configuration (``pushSettings``) also see [node-pushnotifications](https://www.npmjs.com/package/node-pushnotifications) package.
 
